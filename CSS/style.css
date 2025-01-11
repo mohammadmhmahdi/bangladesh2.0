@@ -14,7 +14,7 @@ nav{
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
-  width: 1450px;
+  width: 1470px;
 }
 .signup-button{
   width: 116px;
@@ -58,4 +58,67 @@ nav{
   color: black;
   background-color:rgb(198, 228, 214) ;
   box-shadow: 5px 10px rgba(0, 0, 0, 0.144) ;
+}
+main{
+  width: 1470px;
+  margin: auto;
+  margin-top: 50px;
+}
+.main-content>h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+.main-content>p{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left; 
+}
+/* card section style  */
+.card-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card{
+  padding: 32px;
+  border-radius: 16px;
+}
+.card>h2{
+  font-size: 20px;
+  font-weight: 700;
+}
+.card>p{
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  width: 350px;
+}
+.card>button{
+  border-radius: 8px;
+  width: 122px;
+  height: 41px;
+}
+.card-1{
+  background-color: rgba(84, 144, 245, 0.2);;
+}
+.card-2{
+  background-color: rgb(198, 228, 214);;
+}
+.card-3{
+  background-color: rgb(247, 235, 207);
+}
+.card-1>button{
+  background-color:rgba(84, 143, 245, 0.788) ;
+}
+.card-2>button{
+  background-color: rgba(9, 161, 93, 0.719);
+}
+.card-3>button{
+  background-color: rgba(255, 196, 57, 0.74);
+}
+.card>button:hover{
+  background-color:rgba(74, 75, 74, 0.151);
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.171);
 }
